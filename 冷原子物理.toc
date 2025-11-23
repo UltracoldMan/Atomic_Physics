@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.2}Zero-Range Models}{44}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Spin-Dependent Interaction}{49}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Feshbach Resonance}{51}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Confinement-Induced Resonance}{55}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Confinement-Induced Resonance}{56}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Efimov Effect}{56}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}From Few to Many}{56}{subsection.2.7}%
 \contentsline {section}{\numberline {3}Interaction Effects}{57}{section.3}%

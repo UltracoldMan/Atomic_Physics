@@ -43,7 +43,7 @@
 % 封面设置
 \title{
     \vspace{-3cm}
-    \Huge{\textbf{原子分子光物理讲义}} \\
+    \Huge{\textbf{原子分子光物理}} \\
     \vspace{0.5cm}
     \Huge{冷原子物理} \\
     \vspace{1.5cm}
@@ -1267,6 +1267,7 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
     \includegraphics[width=15cm]{images/chap2-5.png}
 \end{tcolorbox}
 
+
 \subsection{Feshbach Resonance}\label{sec:Feshbach Resonance}
 第 \ref{sec:Scattering Length} 节的讨论已经建立了一种观念，那就是散射长度是描述原子间相互作用的重要物理量。我们能否在实验上调节散射长度呢？在第 \ref{sec:Scattering Length} 节中，以方势阱为例，我们可以通过改变方势阱的深度来改变散射长度。实际上，在较大的能量范围内调节范德华势的强度是很困难的。然而，第 \ref{sec:Scattering Length} 节的讨论给了我们一个提示，即如果能够将束缚态的能量调节到接近\CJKunderdot{\textit{散射阈值}}（scattering threshold），就能使散射长度产生显著变化。这就是所有可调谐散射共振背后的主要思想。在这里，我们首先讨论磁场调谐的\CJKunderdot{\textit{费什巴赫共振}}（Feshbach resonance）。
 
@@ -1287,19 +1288,19 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
 \end{figure}
 
 \textbullet\
-量子数（Quantum Number）：由于沿着 \( \hat{z} \) 方向的旋转对称性，总量子数 $ F_{z}^{1}+F_{z}^{2}+L_z $ 是守恒的。这里 $ F_{z}^{i=1,2} $ 分别是这两个原子超精细自旋的 \( z \)-分量，\( L_z \) 是它们相对角动量的 \( z \)-分量。为了简化，我们只考虑开通道和闭通道中的 \( s \)-波态，这时 \( L_z = 0 \)。在这种简化下，开通道的 $ F_{z}^{1}+F_{z}^{2} $ 应该等于闭通道的 $ F_{z}^{1}+F_{z}^{2} $。例如，对于 \( ^6\text{Li} \)，如果将开通道设定为 \( |a\rangle \otimes |b\rangle \)，总的 \( F_z = 0 \)，那么总共有五种组合具有总 \( F_z = 0 \)，其他四种分别是 \( |a\rangle \otimes |d\rangle \)，\( |b\rangle \otimes |e\rangle \)，\( |c\rangle \otimes |f\rangle \)，和 \( |d\rangle \otimes |e\rangle \)。
+\CJKunderdot{\textit{量子数}}（Quantum Number）：由于沿着 \( \hat{z} \) 方向的旋转对称性，总量子数 $ F_{z}^{1}+F_{z}^{2}+L_z $ 是守恒的。这里 $ F_{z}^{i=1,2} $ 分别是这两个原子超精细自旋的 \( z \)-分量，\( L_z \) 是它们相对角动量的 \( z \)-分量。为了简化，我们只考虑开通道和闭通道中的 \( s \)-波态，这时 \( L_z = 0 \)。在这种简化下，开通道的 $ F_{z}^{1}+F_{z}^{2} $ 应该等于闭通道的 $ F_{z}^{1}+F_{z}^{2} $。例如，对于 \( ^6\text{Li} \)，如果将开通道设定为 \( |a\rangle \otimes |b\rangle \)，总的 \( F_z = 0 \)，那么总共有五种组合具有总 \( F_z = 0 \)，其他四种分别是 \( |a\rangle \otimes |d\rangle \)，\( |b\rangle \otimes |e\rangle \)，\( |c\rangle \otimes |f\rangle \)，和 \( |d\rangle \otimes |e\rangle \)。
 
 \textbullet\
-闭通道vs开通道（Closed versus Open）：当两个原子相距较远时，开通道与闭通道之间的能量差由塞曼能量决定，通常这个能量差远高于动能。因此，当两个原子自开通道的低能散射态发生碰撞时，它们无法散射到闭通道的散射态。这就是这些通道被称为“闭通道”的原因。如图\ref{fig:2.5}(a)的插图所示，当选择 \( |a\rangle \otimes |b\rangle \) 作为开通道时，其他四种组合都可以被视为闭通道。
+\CJKunderdot{\textit{闭通道vs开通道}}（Closed versus Open）：当两个原子相距较远时，开通道与闭通道之间的能量差由塞曼能量决定，通常这个能量差远高于动能。因此，当两个原子自开通道的低能散射态发生碰撞时，它们无法散射到闭通道的散射态。这就是这些通道被称为“闭通道”的原因。如图\ref{fig:2.5}(a)的插图所示，当选择 \( |a\rangle \otimes |b\rangle \) 作为开通道时，其他四种组合都可以被视为闭通道。
 
 \textbullet\
-能量可调控性（Energy Tunability）：通常当开通道被选择为低激发的超精细自旋态时，随着磁场的增加，开放通道的能量相对于闭通道下降。因此可以设想，随着磁场的增加，散射阈值可以从上方接近闭通道中的束缚态。
+\CJKunderdot{\textit{能量可调控性}}（Energy Tunability）：当选择低能超精细自旋态作为开通道时，随着磁场的增加，开通道的能量将相对于闭通道降低。因此可以设想，随着磁场的增加，散射阈值会从上方逐渐接近闭通道中的束缚态。
 
 
 \textbullet\
-通道耦合（Coupling between Channels）：当两个原子彼此接近时，它们之间的原子间势主要依赖于两个原子的电子自由度。这里，由于每个碱金属原子都有一个电子，原子间势依赖于它们的总电子自旋是单态还是三重态（实际上，范德瓦尔斯相互作用对于电子自旋单态和三重态是相同的，但短程排斥相互作用则依赖于电子自旋。），图\ref{fig:2.5}(a)中给出了一个例子。例如，考虑开通道 \( |a\rangle \otimes |b\rangle \)，它们的电子自旋在磁场作用下被极化，且它们的总电子自旋更接近三重态。然而，超精细耦合会使得电子自旋单态成分混合进来。因此，短程势会耦合不同的通道，尽管这种耦合通常较弱。
+\CJKunderdot{\textit{通道耦合}}（Coupling between Channels）：当两个原子彼此接近时，它们之间的相互作用势主要依赖于两个原子的电子自由度。这里，由于每个碱金属原子都有一个电子，相互作用势依赖于它们的总电子自旋是单重态还是三重态（实际上，范德华相互作用对于电子自旋单态和三重态是相同的，但短程排斥相互作用则依赖于电子自旋。），图\ref{fig:2.5}(a)中给出了一个例子。例如，考虑开通道 \( |a\rangle \otimes |b\rangle \)，它们的电子自旋在磁场作用下被极化，且它们的总电子自旋更接近三重态。然而，超精细耦合会使得电子自旋单态成分混合进来。因此，短程势会耦合不同的通道，尽管这种耦合通常较弱。
 
-通过讨论上述两个通道的特性，我们可以考虑一个简化的耦合通道模型，来示范磁场如何改变散射长度。该模型的示意图如图 \ref{fig:2.6}(a) 所示。主要的考虑因素如下：
+\textbf{Coupled-Channel Model. }在讨论了上述两个通道的特性后，我们可以考虑一个简化的耦合通道模型，来说明磁场如何改变散射长度。该模型的示意图如图 \ref{fig:2.6}(a) 所示。主要的考虑因素如下：
 
 \begin{figure}[h!]
 	\centering
@@ -1330,14 +1331,25 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
 	|-\rangle=-\sin\theta|o\rangle+\cos\theta|c\rangle  
 	\label{eq:2.50}
 \end{equation}
-不失一般性，我们认为 \( \theta \) 在空间上是独立的并且非常小。
+不失一般性，我们认为 \( \theta \) 与空间无关并且非常小。
 
 现在，\( r < r_0 \) 区域的波函数可以写为：
 \begin{equation}
 	\chi=(\chi_+\sin\theta+\chi_-\cos\theta)|c\rangle+(\chi_+\cos\theta-\chi_-\sin\theta)|o\rangle   
 	\label{eq:2.51}
 \end{equation}
-匹配在 \( r = r_0 \) 处的边界条件，我们得到：
+
+\begin{tcolorbox}[colback=red!3, colframe=red!60!black, title=注释, breakable]
+	将式 \ref{eq:2.49} 和式 \ref{eq:2.50} 带入式 \ref{eq:2.48} 有
+	\begin{align}
+		\chi &=\chi _+\left| + \right> +\chi _-\left| - \right>  \notag \\
+		&=\chi _+\left( \cos \theta \left| o \right> +\sin \theta \left| c \right> \right) +\chi _-\left( -\sin \theta \left| o \right> +\cos \theta \left| c \right> \right)  \notag \\
+		&=\left( \chi _+\cos \theta -\chi _-\sin \theta \right) \left| o \right> +\left( \chi _+\sin \theta +\chi _-\cos \theta \right) \left| c \right> \tag{1}
+	\end{align}
+	得到式 \ref{eq:2.51}。
+\end{tcolorbox}
+
+在 \( r = r_0 \) 处匹配边界条件，我们得到：
 \begin{equation}
 	\chi_+\sin\theta+\chi_-\cos\theta\bigg|_{r=r_0}=0
 	\label{eq:2.52}
@@ -1346,11 +1358,29 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
 	\frac{\chi_+^{\prime}\cos\theta-\chi_-^{\prime}\sin\theta}{\chi_+\cos\theta-\chi_-\sin\theta}\bigg|_{r=r_0}^{}=\frac k{\tan\delta_k}\equiv-\frac1{a_\mathrm{s}}
 	\label{eq:2.53}
 \end{equation}
-\eqref{eq:2.52}式来源于闭通道的波函数在 \( r = r_0 \) 处为零，\eqref{eq:2.53}式确定了开通道散射波函数中的相移。这里我们假设 \( \chi_{\pm} \) 与能量无关，且 \( r_0 \) 的值很小。这两个等式给出：
+式 \eqref{eq:2.52} 来源于闭通道的波函数在 \( r = r_0 \) 处为零，式 \eqref{eq:2.53} 决定了开通道散射波函数中的相移。这里我们假设 \( \chi_{\pm} \) 与能量无关，且 \( r_0 \) 的值很小。上面两个等式给出：
 \begin{equation}
 	-\left.\frac{1}{a_{\mathrm{s}}}=\frac{\chi_{+}'}{\chi_{+}}\right|_{r=r_{0}}\cos^{2}\theta+\left.\frac{\chi_{-}'}{\chi_{-}}\right|_{r=r_{0}}\sin^{2}\theta 
 	\label{eq:2.54}
 \end{equation}
+
+\begin{tcolorbox}[colback=red!3, colframe=red!60!black, title=注释, breakable]
+	由式 \ref{eq:2.52} 得到
+	\begin{align}
+		\chi _+&=-\frac{\cos \theta}{\sin \theta}\chi _- \tag{1} \\
+		\chi _-&=-\frac{\sin \theta}{\cos \theta}\chi _+ \tag{2}
+	\end{align}
+	带入式 \ref{eq:2.53} 得到
+	\begin{align}
+		-\frac{1}{a_{\text{s}}}&=\frac{\chi '_+\cos \theta -\chi '_-\sin \theta}{\chi _+\cos \theta -\chi _-\sin \theta} \notag \\
+		&=\frac{\chi '_+\cos \theta}{\chi _+\cos \theta -\chi _-\sin \theta}-\frac{\chi '_-\sin \theta}{\chi _+\cos \theta -\chi _-\sin \theta} \notag \\
+		&=\frac{\chi '_+\cos \theta}{\chi _+\cos \theta -\left( -\frac{\sin \theta}{\cos \theta}\chi _+ \right) \sin \theta}-\frac{\chi '_-\sin \theta}{\left( -\frac{\cos \theta}{\sin \theta}\chi _- \right) \cos \theta -\chi _-\sin \theta} \notag \\
+		&=\frac{\chi '_+}{\chi _+}\frac{\cos \theta}{\cos \theta +\frac{\sin ^2\theta}{\cos \theta}}-\frac{\chi '_-}{\chi _-}\frac{\sin \theta}{-\frac{\cos ^2\theta}{\sin \theta}-\sin \theta} \notag \\
+		&=\frac{\chi '_+}{\chi _+}\cos ^2\theta +\frac{\chi '_-}{\chi _-}\sin ^2\theta \tag{3}
+	\end{align}
+	即为式 \ref{eq:2.54}。
+\end{tcolorbox}
+
 由于 \( \theta \) 通常非常小，\eqref{eq:2.54}式右侧的第二项通常可以忽略。在这种情况下，散射长度仅由 \( |+\rangle \) 通道决定。我们令
 \begin{equation}
 	\left.\frac{\chi_+'}{\chi_+}\right|_{r=r_0}=-\frac1{a_{\mathrm{bg}}}
