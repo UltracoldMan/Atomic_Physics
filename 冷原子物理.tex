@@ -43,7 +43,7 @@
 % 封面设置
 \title{
     \vspace{-3cm}
-    \Huge{\textbf{原子分子光物理}} \\
+    \Large{\textbf{Atomic，Molecular，and Optical Physics}} \\
     \vspace{0.5cm}
     \Huge{冷原子物理} \\
     \vspace{1.5cm}
@@ -985,7 +985,7 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
 \end{equation}
 显然，\( \chi(r = a_s) = 0 \)；也就是说，\( a_s \) 是零能径向波函数的节点。
 
-下面考虑一个有限深方势阱模型（toy model）：\( V(r) = -V_0 \) (\( V_0 > 0 \)) 当 \( 0 < r < r_0 \)， \( V(r) = 0 \) 当 \( r > r_0 \)，在 $ r 0 $ 处我们考虑\CJKunderdot{\textit{刚性边界条件}}（hard core boundary condition）。这个简单的玩具模型模拟了真实的原子间相互作用势。在这个模型中，$0 < r < r_0$ 区域的零能波函数由下式给出： 
+下面考虑一个有限深方势阱模型（toy model）：\( V(r) = -V_0 \) (\( V_0 > 0 \)) 当 \( 0 < r < r_0 \)， \( V(r) = 0 \) 当 \( r > r_0 \)，在 $ r=0 $ 处我们考虑\CJKunderdot{\textit{刚性边界条件}}（hard core boundary condition）。这个简单的玩具模型模拟了真实的原子间相互作用势。在这个模型中，$0 < r < r_0$ 区域的零能波函数由下式给出： 
 \begin{equation}\label{eq:2.10}
 	\chi \left( r \right) =\sin \left( \sqrt{\frac{2V_0\bar{m}}{\hbar^2}}r \right)
 \end{equation}
@@ -1381,24 +1381,24 @@ STIRAP 已广泛应用于原子分子物理以及化学领域。在冷原子物�
 	即为式 \ref{eq:2.54}。
 \end{tcolorbox}
 
-由于 \( \theta \) 通常非常小，\eqref{eq:2.54}式右侧的第二项通常可以忽略。在这种情况下，散射长度仅由 \( |+\rangle \) 通道决定。我们令
+由于 \( \theta \) 通常非常小，式 \eqref{eq:2.54} 右侧的第二项通常可以忽略。在这种情况下，散射长度仅由 \( |+\rangle \) 通道贡献。我们令
 \begin{equation}
 	\left.\frac{\chi_+'}{\chi_+}\right|_{r=r_0}=-\frac1{a_{\mathrm{bg}}}
 	\label{eq:2.55}
 \end{equation}
-其中 \( a_{\text{bg}} \) 被称为背景散射长度（background scattering length）。现在我们有
+其中 \( a_{\text{bg}} \) 被称为\CJKunderdot{\textit{背景散射长度}}（background scattering length）。现在我们有
 \begin{equation}
 	- \frac{1}{a_\mathrm{s}}=-\frac{1}{a_\mathrm{bg}}\cos^2\theta+\left.\frac{\chi_-'}{\chi_-}\right|_{r=r_0}\sin^2\theta
 	\label{eq:2.56}
 \end{equation}
-由于 \( \theta \) 很小，我们可以近似 \( \cos^2 \theta \approx 1 \) 和 \( \sin^2 \theta \approx \theta^2 \)，第二项只有在 \( \chi'_{-}/\chi_{-} \big|_{r=r_0} \) 非常大时，才会产生显著的贡献。正如我们将看到的，这实际上意味着在 \( |-\rangle \) 通道中，束缚态出现在散射阈值附近。
+由于 \( \theta \) 很小，我们可以取近似 \( \cos^2 \theta \approx 1 \) 和 \( \sin^2 \theta \approx \theta^2 \)，因此第二项只有在 \( \chi'_{-}/\chi_{-} \big|_{r=r_0} \) 非常大时，才会有显著的贡献。正如我们将看到的，这实际上意味着在 \( |-\rangle \) 通道中，束缚态出现在散射阈值附近。
 
-例如，我们可以将 \( |-\rangle \) 通道视为一个方形势阱，\( V(r) = -V_0 \) (\( V_0 > 0 \), \( r < r_0 \))，如图\ref{fig:Z-2-6}(a)所示。在这种情况下，当散射态的能量与 \( V_0 \) 相比可以忽略不计时，我们有 \( \chi_{-} = \sin(q_1 r) \)，且 \( q_1 = \sqrt{mV_0/\hbar^2} \)，因此
+例如，我们可以将 \( |-\rangle \) 通道视为一个方形势阱，\( V(r) = -V_0 \) (\( V_0 > 0 \), \( r < r_0 \))，如图\ref{fig:2.6}(a)所示。在这种情况下，当散射态的能量与 \( V_0 \) 相比可以忽略不计时，我们有 \( \chi_{-} = \sin(q_1 r) \)，且 \( q_1 = \sqrt{mV_0/\hbar^2} \)，因此
 \begin{equation}
 	\frac{\chi_-^{\prime}}{\chi_-}\Bigg|_{r=r_0}=\frac{q_1\cos(q_1r_0)}{\sin(q_1r_0)}
 	\label{eq:2.57}
 \end{equation}
-如果存在一个束缚态，其能量为 \( E_c \)，那么束缚态的波函数为 \( \chi_{-}(r) = \sin(q_2 r) \)，且 \( q_2 = \sqrt{m(V_0 + E_c)/\hbar^2} \)。在 \( \theta \) 的零阶近似下，\( |-\rangle \) 通道在 \( r = r_0 \) 处与 \( |c\rangle \) 通道相连，并且有 \( \sin(q_2 r_0) = 0 \)。当 \( E_c \) 很小时，我们可以在 \( q_2 \) 附近展开 \( q_1 \)，得到
+如果存在一个束缚态，其能量为 \( E_c \)，那么束缚态的波函数为 \( \chi_{-}(r) = \sin(q_2 r) \)，且 \( q_2 = \sqrt{m(V_0 + E_c)/\hbar^2} \)。取零阶近似，\( |-\rangle \) 通道在 \( r = r_0 \) 处与 \( |c\rangle \) 通道相连接，并且有 \( \sin(q_2 r_0) = 0 \)。当 \( E_c \) 很小时，我们可以在 \( q_2 \) 附近展开 \( q_1 \)，得到
 \begin{equation}
 	\frac{\chi_-'}{\chi_-}\Bigg|_{r=r_0}\approx\frac{q_1}{(q_1-q_2)r_0}\approx\frac{2q_1^2}{(q_1^2-q_2^2)r_0}=-\frac{2\hbar^2q_1^2}{mr_0E_\mathrm{c}}
 	\label{eq:2.58}
